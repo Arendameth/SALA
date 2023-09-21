@@ -47,7 +47,7 @@ Additionally, certain permissions within the bot script must be set up. You can 
 | --------------- | ----------- |
 | closeTickets    | The roles which have permissions to close tickets. By default, everyone who has access to the ticket will be able to close it. Changing this setting will restrict closing the ticket to those roles only. Do note that no matter what this setting is, server administrators and ticket creator will **always** have the permission to close the ticket. |
 | ticketStaff     | The roles which are given access to tickets upon the ticket creation. You do not need to give truckers this permission, as they already get permission to the ticket when they claim it. |
-| deliveryRolesTag | While not technically a permission, this setting controls which roles the bot will tag in the assigned `receiptsChannel`. |
+| deliveryRolesTag | While not technically a permission, this setting controls which roles the bot will tag to claim a new order in the assigned `receiptsChannel`, when the order's receipt is printed. |
 
 You can also remove permissions using `/removeperm {permission type} {role}`, or clear the permissions using `/clearperm {permission_type} {role}`.
 
