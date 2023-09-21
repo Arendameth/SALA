@@ -45,7 +45,7 @@ By default, all bot commands can be used only by those who have administrative p
 Additionally, certain permissions within the bot script must be set up. You can do this using `/addperm {permission type} {role}`. Accepted strings into the parameter `permission type` are explained below.
 | Permission Type | Information |
 | --------------- | ----------- |
-| closeTickets    | The roles which have permissions to close tickets. By default, everyone who has access to the ticket will be able to close it. Change this setting will restrict closing the ticket to those roles only. Do note that no matter what this setting is, server administrators and ticket creator will **always** have the permission to close the ticket. |
+| closeTickets    | The roles which have permissions to close tickets. By default, everyone who has access to the ticket will be able to close it. Changing this setting will restrict closing the ticket to those roles only. Do note that no matter what this setting is, server administrators and ticket creator will **always** have the permission to close the ticket. |
 | ticketStaff     | The roles which are given access to tickets upon the ticket creation. You do not need to give truckers this permission, as they already get permission to the ticket when they claim it. |
 | deliveryRolesTag | While not technically a permission, this setting controls which roles the bot will tag in the assigned `receiptsChannel`. |
 
