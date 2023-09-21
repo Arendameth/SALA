@@ -31,7 +31,7 @@ One of the first things you must set up are the tickets channel, receipts channe
 ### 4- Setting up the tickets category and company name
 You need to set up which category new tickets will go to. By default, it will be `tickets`, so you need to ensure you already have a category called `tickets`. You can change it by using `/changesetting ticketsCategory {category name}`. Replace the `{category name}` with the name of the category. Obviously, ensure you have created the category beforehand. An example usage is `/changesetting ticketsCategory orders`.
 
-Setting up the company name is purely optional and doesn't affect anything other than the message sent by the bot upon creation of a ticket. This the following is the default message sent to the user upon creation of the ticket.
+Setting up the company name is purely optional and doesn't affect anything other than the message sent by the bot upon creation of a ticket. This is the default message sent to the user upon creation of the ticket.
 > Greetings, arendameth! Thank you for choosing us! 
 I will be your personal assistant during this ticket. How may I be of help to you today?
 
