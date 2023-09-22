@@ -67,24 +67,24 @@ At this point, you have fully set up the bot and its ready to be used within you
 ### As a company manager
 When new clients create orders, you are expected to create a receipt which is sent to to the previously set `receiptsChannel` for employees to claim and carry out. You can do this using `/receipt {client name} {delivery type} {crates_or_fuel} {location} {price}`
 - **Client name** is self explanatory
-- **Delivery type** is the type of delivery. To make things easier, each delivery type has been reduced to an integer symbolising it. They are explained down in the table.
+- **Delivery type** is the type of delivery. You'll be given a list of choices to pick from for this parameter. They're also listed below in the table
 - **Crates or fuel** is the amount of crates or fuel being delivered. This field accepts strings so that it can be broken down in case of multiple deliveries.
 - **Location** is the GPS location that the trucker is expected to deliver to.
 - **Price** is self explanatory.
 
-| Number | Delivery representation |
-| ------ | ----------------------- |
-| 1 | Warehouse - Fabrics |
-| 2 | Warehouse - Metals |
-| 3 | Business - Hardware Crates (Toolstores) |
-| 4 | Business - Weapons Crates (Ammunations ) |
-| 5 | Food Crates (Restuarants and Bars) |
-| 6 | Pharmaceutical Crates (Pharmacies) |
-| 7 | Electronic Crates (24/7s) |
-| 8 | Vehicle Parts Crates (PNS) |
-| 9 | Agriculture Crates (Seed Stores) |
-| 10 | Fuel (Gas Stations) |
-| 11 | Multiple Deliveries |
+| Delivery Type |
+| ------------- |
+| Warehouse - Fabrics |
+| Warehouse - Metals |
+| Business - Hardware Crates (Toolstores) |
+| Business - Weapons Crates (Ammunations ) |
+| Food Crates (Restuarants and Bars) |
+| Pharmaceutical Crates (Pharmacies) |
+| Electronic Crates (24/7s) |
+| Vehicle Parts Crates (PNS) |
+| Agriculture Crates (Seed Stores) |
+| Fuel (Gas Stations) |
+| Multiple Deliveries |
 
 For convenience, entering a wrong number will display this list. Upon using the command, a receipt will be generated and sent to the `receiptsChannel`. This receipt will be available for any trucker to claim. Once claimed, the ability to claim it further will be closed, and the claiming trucker will be granted access to the order ticket.
 
