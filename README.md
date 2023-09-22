@@ -86,7 +86,7 @@ When new clients create orders, you are expected to create a receipt which is se
 | Fuel (Gas Stations) |
 | Multiple Deliveries |
 
-For convenience, entering a wrong number will display this list. Upon using the command, a receipt will be generated and sent to the `receiptsChannel`. This receipt will be available for any trucker to claim. Once claimed, the ability to claim it further will be closed, and the claiming trucker will be granted access to the order ticket.
+Upon using the command, a receipt will be generated and sent to the `receiptsChannel`. This receipt will be available for any trucker to claim. Once claimed, the ability to claim it further will be closed, and the claiming trucker will be granted access to the order ticket.
 
 ### As an employee
 There's nothing for you to do as an employee in a company using this bot. You simply click **Claim** when you're tagged for a new order and carry out the order.
